@@ -1,0 +1,56 @@
+p, h1, body, html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background: rgb(251, 237, 217);
+}
+header {
+    background: rgb(214, 149, 59);
+    font-size: 20px;
+    text-align: right;
+    border: 1px solid black;
+    
+
+}
+.float {
+    float: left;
+    color: white;
+}
+.nav {
+    
+}
+a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+.column {
+    border: 3px solid rgb(214, 149, 59);
+    background: white;
+    float: left;
+    width: 300px;
+    height: 500px;
+    margin: 5px;
+    margin-top: 100px;
+    overflow-wrap: break-word;
+    
+}
+.container {
+   display: inline-block;
+}
+.maincontainer {
+    text-align: center;
+}
+p {
+  margin: 15px;
+  text-align: left;
+}
+input {
+    background-color: rgb(214, 149, 59);
+    width: 280px;
+    text-decoration: none;
+    border: none;
+    color: white;
+}
