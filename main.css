@@ -9,36 +9,32 @@ body {
 header {
     background: rgb(214, 149, 59);
     font-size: 20px;
-    text-align: right;
-    border: 1px solid black;
+    padding: 15px;
+    display: flex;
     
+}
 
-}
-.float {
-    float: left;
-    color: white;
-}
-.nav {
-    
-}
 a {
-    margin: 0 10px;
     text-decoration: none;
     color: white;
+    flex-grow: 1;
 }
+#real {
+    flex-grow: 50;
+}
+
 .column {
     border: 3px solid rgb(214, 149, 59);
     background: white;
-    float: left;
     width: 300px;
     height: 500px;
     margin: 5px;
     margin-top: 100px;
     overflow-wrap: break-word;
-    
 }
 .container {
-   display: inline-block;
+   display: flex;
+   justify-content: space-around;
 }
 .maincontainer {
     text-align: center;
@@ -46,6 +42,7 @@ a {
 p {
   margin: 15px;
   text-align: left;
+  
 }
 input {
     background-color: rgb(214, 149, 59);
@@ -53,4 +50,5 @@ input {
     text-decoration: none;
     border: none;
     color: white;
+   margin-top: 200px;
 }
